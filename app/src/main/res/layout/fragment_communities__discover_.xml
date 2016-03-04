@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+   <!-- <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue1"
+        android:orientation="vertical"
+        android:padding="@dimen/content_padding">
+
+        <include layout="@layout/auth_logo" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/content_padding"
+                    android:gravity="center_horizontal"
+                    android:text="@string/im_a"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/profile_text_h1" />
+
+                <Button
+                    android:id="@id/button_teacher_signup"
+                    style="@style/NUX.Button.White"
+                    android:layout_marginBottom="@dimen/content_padding_half"
+                    android:text="@string/teacher" />
+
+                <Button
+                    android:id="@id/button_student_signup"
+                    style="@style/NUX.Button.White"
+                    android:layout_marginBottom="@dimen/content_padding_half"
+                    android:text="@string/student" />
+
+                <Button
+                    android:id="@id/button_login"
+                    style="@style/NUX.Button.WhiteTransparent"
+                    android:text="@string/already_have_account" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/content_padding_double"
+            android:gravity="center_horizontal"
+            android:text="@string/txt_sign_up_notice"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/profile_text_h3" />
+    </LinearLayout>-->
+</ScrollView>

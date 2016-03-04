@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.edmododemo.AllFragment"
+    android:background="#E0E0E0">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.liferay.mobile.screens.ddl.list.DDLListScreenlet
+        android:id="@+id/custom_ddl_list_screenlet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:autoLoad="false"
+        app:labelFields="Send_to___,Type_your_note_here___,Documents___"
+        app:layoutId="@layout/ddl_list_custom_layout"
+        app:offlinePolicy="REMOTE_FIRST"
+        app:recordSetId="21318" />
+
+</FrameLayout>

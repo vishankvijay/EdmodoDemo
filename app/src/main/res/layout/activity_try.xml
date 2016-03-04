@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.edmododemo.Try">
+
+    <com.liferay.mobile.screens.ddl.list.DDLListScreenlet
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:recordSetId="21315"
+        app:labelFields="Send_to___,Type_your_question_here___,Answer__1,Answer__2,Answer__3,Answer__4"
+        app:layoutId="@layout/ddl_list_westeros">
+
+    </com.liferay.mobile.screens.ddl.list.DDLListScreenlet>
+
+</RelativeLayout>

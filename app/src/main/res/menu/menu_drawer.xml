@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item_0"
+        android:icon="@mipmap/posts"
+        android:title="Posts" />
+
+
+    <item
+        android:id="@+id/item_1"
+        android:icon="@mipmap/groups"
+        android:title="Groups" />
+
+
+    <item
+        android:id="@+id/item_2"
+        android:icon="@mipmap/communities"
+        android:title="Communities" />
+
+
+    <item
+        android:id="@+id/item_3"
+        android:icon="@mipmap/progress"
+        android:title="Progress" />
+
+
+    <group
+        android:id="@+id/group_4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_4"
+            android:icon="@mipmap/exit"
+            android:title="Logout" />
+    </group>
+
+</menu>

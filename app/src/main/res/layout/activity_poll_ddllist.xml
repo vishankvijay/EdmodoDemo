@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar_poll_ddl_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        <!-- <TextView
+             android:id="@+id/sample_text"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Posts"
+             android:textAllCaps="false"
+             android:textColor="#fff"
+             android:textSize="10sp" />-->
+
+    </android.support.v7.widget.Toolbar>
+
+    <!-- <com.liferay.mobile.screens.assetlist.AssetListScreenlet
+         android:id="@+id/ddl_list"
+         app:layoutId="@layout/asset_list_material"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_below="@+id/toolbar"
+         app:labelFields="Text1780"
+         app:classNameId = "20007">
+
+     </com.liferay.mobile.screens.assetlist.AssetListScreenlet>
+-->
+
+
+    <!-- <com.liferay.mobile.screens.ddl.list.DDLListScreenlet
+         android:id="@+id/ddl_list"
+         android:layout_below="@+id/toolbar"
+         app:layoutId="@layout/ddl_list_westeros"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         app:recordSetId="21227"
+         app:labelFields="Text1780,Text_Box3642,Select3324,Documents_and_Media3286">
+
+     </com.liferay.mobile.screens.ddl.list.DDLListScreenlet>-->
+
+
+    <com.liferay.mobile.screens.ddl.list.DDLListScreenlet
+        android:id="@+id/poll_custom_ddl_list_screenlet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_poll_ddl_list"
+        app:autoLoad="false"
+        app:labelFields=""
+        app:layoutId="@layout/poll_ddl_list_custom_layout"
+        app:offlinePolicy="REMOTE_FIRST"
+        app:recordSetId="23106" />
+
+
+</RelativeLayout>
+

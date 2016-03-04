@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.liferay.mobile.screens.ddl.list.DDLListScreenlet
+        android:id="@+id/custom_ddl_list_screenlet_trial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:autoLoad="false"
+        app:labelFields="Send_to___,Type_your_note_here___,Documents___"
+        app:layoutId="@layout/ddl_list_custom_layout"
+        app:offlinePolicy="REMOTE_FIRST"
+        app:recordSetId="21318"/>
+
+
+</LinearLayout>

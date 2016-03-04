@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.edmododemo">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".FirstActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GroupsActivity"
+            android:parentActivityName=".GroupsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CustomDDLListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NoteActivity"
+            android:parentActivityName=".NoteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".communitiesActivity"
+            android:parentActivityName=".communitiesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProgressActivity"
+            android:parentActivityName=".ProgressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NotificationActivity"
+            android:parentActivityName=".NotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PollActivity"
+            android:parentActivityName=".PollActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AssignmentActivity"
+            android:parentActivityName=".AssignmentActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SingleInfoFromList" />
+        <activity
+            android:name=".SignUpActivity"
+            android:parentActivityName=".SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pollDDLList"
+            android:parentActivityName=".pollDDLList"
+            android:screenOrientation="portrait" />
+        <activity android:name=".PollSingleItemFromList" />
+        <activity android:name=".Try" />
+        <activity android:name=".Assignment_single_info_from_list"></activity>
+    </application>
+
+</manifest>

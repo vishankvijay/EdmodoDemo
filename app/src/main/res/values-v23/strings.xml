@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EdmodoDemo</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="im_a">I\'m a</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="already_have_account">I already have an account</string>
+
+    <string-array name="group_tabs">
+        <item>My Groups</item>
+        <item>Joined</item>
+        <item>Archived</item>
+    </string-array>
+
+    <string-array name="progress_tabs">
+        <item>Assignment</item>
+        <item>Students</item>
+    </string-array>
+
+    <string-array name="communities_tabs">
+        <item>Following</item>
+        <item>Discover</item>
+    </string-array>
+
+
+    <string-array name="Note_array">
+        <item>Note</item>
+        <item>Poll</item>
+        <item>Assignment</item>
+    </string-array>
+
+    <string name="txt_sign_up_notice">Parents, administrators, and publishers can only access their accounts through the website</string>
+</resources>
